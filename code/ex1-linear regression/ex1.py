@@ -48,7 +48,7 @@ def gradientDescent(X, y, theta, alpha, iters):
         
     return theta, cost
 
-alpha = 0.01
+alpha = 0.001
 iters = 1000
 
 g, cost = gradientDescent(X, y, theta, alpha, iters)
